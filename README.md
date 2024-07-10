@@ -1,39 +1,57 @@
-# Questions-Challenge
+# Quiz Application
 
-As a user, I want to see a landing page when I arrive at the website to know I'm in the right place.
+**Date:** 10/7/2024
 
-As a user, I want to see clearly labeled buttons for "true ", and "fulse", on the landing page, so I instantly know my options for gameplay
+**By:** [mahmood essa althawadi]
 
-as a user i want to be able to click on one of the 
-buttons making it easy to select my game move
+[Website](#) | [GitHub](#) | [LinkedIn](#) | [Vettery](#)
 
-As a user, I want visual feedback after selecting, so I know my choice has been registered.
+## Description
 
-As a user, I want to see the computer's giving me a 
-replay  to my answer
+This project is a JavaScript-based quiz application designed to test users' knowledge on various topics. The quiz features multiple-choice questions, sound effects, and visual feedback for correct and incorrect answers. It was created as a fun and interactive way to learn and test your knowledge.
 
-As a user, I want to play another round to try to improve my record.
+## Technologies Used
 
-As a user, I want to be presented with a clear message indicating the winner of the game so that I can immediately understand the outcome
+- **HTML**: Structure of the quiz application.
+- **CSS**: Styling the quiz interface.
+  - Flexbox for layout
+  - Grid for answer options
+- **JavaScript**: Core functionality of the quiz.
+  - Event listeners for user interactions
+  - Audio for sound effects
 
-pseudocode
+## Getting Started
 
- the constant of the game  three buttons true ,fulse ,and restart with having the scoreborde in the top and the question in the midel of the screen and  timer in right corner
+To start using the quiz application, simply open the `index.html` file in a web browser. The quiz will automatically start, playing background music and presenting questions for the user to answer. After completing the quiz, users can restart it by clicking the "RESTART" button.
 
-if the user clicks on the true button then the computer will chose the answer is rigth or wrong
+A Trello board was used to keep track of development progress and can be viewed [here](#).
 
-if the user chose true and the answer is true the user will go to the next step (question) with having one extra point shon in the top of the web page 
+The project itself was deployed and can be viewed [here](#).
 
-if the user chose true and the answer is false the user will lose a point with out having a point for the question that he mis answer
+## Screenshots
 
-if the game is finsh the user can restart the game by chosing restat button
+**Quiz Interface**
 
-add an event listener to the true button
-add an event listener to the fulse button
+![Quiz Interface](./pic/لقطة%20شاشة%202024-07-10%20144255.png)
 
-using the event listeners set up ,assign the user's choice with giving 
+**Correct Answer**
 
+![Correct Answer](./pic/لقطة%20شاشة%202024-07-10%20142529.png)
 
-if the user clicks on the true button then will high light
+**Incorrect Answer**
 
- 
+![Incorrect Answer](./pic/لقطة%20شاشة%202024-07-10%20142504.png)
+
+## Future Updates
+
+- **Add More Questions:** Enhance the quiz with additional questions to cover more topics.
+- **Timer:** Implement a timer for each question to increase difficulty.
+- **Leaderboard:** Add a leaderboard to track high scores.
+- **Initial Deployment:** Deploy the quiz application online.
+
+## Credits
+
+- **Sound Effects:** [FreeSound](https://freesound.org)
+- **Images:** [Unsplash](https://unsplash.com) and [Pexels](https://pexels.com)
+- **Markdown Guide:** [ia.net](https://ia.net)
+- **Markdown Cheatsheet:** [GitHub](https://github.com)
