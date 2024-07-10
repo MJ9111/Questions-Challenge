@@ -1,0 +1,87 @@
+/* Warm and calming color scheme */
+html, body {
+  background:  #ffcccc
+  ; /* Warm beige */
+  font-family: Arial, sans-serif;
+  font-size: 18px; /* Adjustable font size */
+}
+
+#quizWrap {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #adad85; /* White background for better contrast */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  perspective: 1000px;
+}
+
+
+#quizQn {
+  padding: 20px;
+  background: #ff80d5; /* Calming blue */
+  color: #080808;
+  font-size: 24px;
+  border-radius: 10px;
+  width: 350px;
+  height: 100px;
+}
+
+#quizAns {
+  margin: 10px 0;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+}
+
+#quizAns input[type=radio] {
+  display: none;
+}
+
+#quizAns label {
+  background: #ffb3ff; /* Light gray */
+  border: 1px solid #ddd; /* Increased contrast */
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  width: 150px;
+  height: 50px;
+}
+
+#quizAns label.correct {
+  background: #d8ffc4; /* Soft green */
+  border: 1px solid #60a03f;
+}
+
+#quizAns label.wrong {
+  background: #ffe8e8; /* Soft red */
+  border: 1px solid #c78181;
+}
+
+#restartBtn {
+  background-color: #4CAF50; /* Green button */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#restartBtn:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+#restartBtn:focus {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Focus state */
+}
