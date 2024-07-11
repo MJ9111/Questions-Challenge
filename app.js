@@ -147,9 +147,7 @@ select: (option) => {
     quiz.score = 0;
     quiz.updateScoreboard();
     quiz.draw();
-    // stop background sound
-    quiz.backgroundSound.pause();
-    quiz.backgroundSound.currentTime = 0;
+    // play background sound
     quiz.backgroundSound.play();
   },
 

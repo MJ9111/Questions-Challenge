@@ -10,6 +10,55 @@
 
 This project is a JavaScript-based quiz application designed to test users' knowledge on various topics. The quiz features multiple-choice questions, sound effects, and visual feedback for correct and incorrect answers. It was created as a fun and interactive way to learn and test your knowledge.
 
+The HTML file sets up the basic structure of the quiz page.
+
+
+
+The main structure of the quiz application is an object named quiz. This object contains various properties and methods to manage the quiz.
+
+Properties
+HTML Elements:
+
+hWrap: The main container for the quiz.
+
+hQn: The container for the current question.
+
+hAns: The container for the answer options.
+
+hScoreboard: The container for the scoreboard.
+
+backgroundSound, correctSound, wrongSound: Audio elements for background music and sound effects.
+
+
+Initialization (init):
+
+This method sets up the HTML structure of the quiz and starts the background music.
+It creates and appends HTML elements for the quiz container, scoreboard, questions, answers, and restart button.
+It initializes the background sound and sound effects for correct and wrong answers.
+It updates the scoreboard and displays the first question.
+
+Draw Question (draw):
+This method displays the current question and its answer options.
+
+
+Select Option (select):
+This method handles the user's selection of an answer.
+
+Reset Quiz (reset):
+This method resets the quiz to the initial state and restarts the background music.
+
+
+Update Scoreboard (updateScoreboard):
+This method updates the scoreboard with the current question number, score, and total number of questions.
+
+
+Data (data):
+This property contains an array of question objects. Each object has a question (q), an array of options (o), and the index of the correct answer (a).
+
+
+Event Listener
+Finally, the window.addEventListener("load", quiz.init); statement ensures that the quiz.init method is called when the page is fully loaded, initializing the quiz.
+
 ## Technologies Used
 
 - **HTML**: Structure of the quiz application.
